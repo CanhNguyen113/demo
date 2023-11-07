@@ -1,0 +1,75 @@
+//Khai bao
+/*
+    Noi dung
+*/
+
+//toan tu noi chuoi
+/*var fullName = 'Nguyen Phuoc Minh Canh';
+var age = 22;
+var Name = 'Canh';
+Name += ' Minh'
+console.log(Name);*/
+
+//toan tu nang cao
+//==(chi xem value)
+//===(so sanh ca key va value)
+//!==()
+
+
+
+
+//Goi ham thong bao
+// alert(fullName);
+// alert(age);
+
+// console.log(fullName)
+// setInterval(function() { 
+//     console.log('Day la log' + Math.random())
+// }, 1000)
+
+//boolean
+// var is = 1;
+// var ifs =2
+// var isSuccess= is < ifs
+// console.log(isSuccess);
+
+//toan logic(chi tra ve ket qua trong 2 ve thuong la ve sau (&&)-lay ket qua dau tien neu nhu khong nam trong 6 ky tu(||))
+/*
+var a =1;
+var b =2;
+var c =3;
+
+if(!(a>0)){
+    console.log('Dieu kien dung');
+}
+else
+    console.log('Dieu kien sai');
+*/
+
+//kieudulieu
+/*
+1. Dữ liệu nguyên thủy - Primitive Data
+- Number: var a = 1 (Nhan biet bang cach console.log(typeof a))
+- String: var fullName = 'Minh Canh'(Nhan biet bang cach console.log(typeof fullName))
+- Boolean: var isSuccess = true;(Nhan biet bang cach console.log(typeof isSuccess))
+- Undefined: var age:(Khong gan gia tri)(Nhan biet bang cach console.log(typeof age))
+- Null
+- Symbol: var id= Symbol('id');(Tinh duy nhat)
+2. Dữ liệu phức tạp – Complex Data
+-Function: var myFunction = function(){alert('Ho');}
+- Object: var myObject = {name: 'Minh Canh',
+                          age :18,
+                          address: 'HaNoi'};(chua duoc nhieu dang du lieu va chua ca key va value)
+ -array(thuoc object type)
+ var myArray = [
+    'java',
+    'PHP',
+    'Ruby'
+ ];(array khac object o cho khong can dinh nghia key)
+*/
+//cach dat ten ham:a-z,A-Z,0-9,_,$(khong duoc dat so o ky tu dau tien)
+
+// function showDialog(){
+//     alert('Hi chao cac ban')
+// }
+// showDialog();
